@@ -25,6 +25,8 @@ namespace Creating_Variable_Types
             float someFloat = 13.83F;
             double someDouble = 12.33;
             bool someBool = true;
+            var someVar = "Testing var";
+            string someString = "Testing string";
 
             Console.WriteLine(someByte);
             Console.WriteLine(someShort);
