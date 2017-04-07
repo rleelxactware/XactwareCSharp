@@ -41,6 +41,8 @@ namespace Creating_Variable_Types
             Console.WriteLine(someFloat);
             Console.WriteLine(someDouble);
             Console.WriteLine(someBool);
+            Console.WriteLine(someVar);
+            Console.WriteLine(someString);
             Console.WriteLine("\n\rPress any key to continue ...");
 
             Console.ReadKey();
