@@ -16,7 +16,7 @@ namespace Chapter_12___Looping
             Console.ReadKey();
             for (int row = 0; row < 5; row++)
             {
-                for (int spaces = 5; spaces > row +1; spaces--)
+                for (int spaces = 5; spaces > row + 1; spaces--)
                 {
                     Console.Write(" ");
                 }
@@ -30,18 +30,18 @@ namespace Chapter_12___Looping
             */
 
             //FizzBuss PROGRAM
-            
-            for(int num = 1; num <= 100; num++)
+
+            for (int num = 1; num <= 100; num++)
             {
-                if(num % 3 == 0 && num % 5 == 0)
+                if (num % 3 == 0 && num % 5 == 0)
                 {
                     Console.Write("FizzBuzz ");
                 }
-                else if(num % 3 == 0)
+                else if (num % 3 == 0)
                 {
                     Console.Write("Fizz ");
                 }
-                else if(num % 5 == 0)
+                else if (num % 5 == 0)
                 {
                     Console.Write("Buzz ");
                 }
