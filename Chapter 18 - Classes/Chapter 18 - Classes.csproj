@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2390833B-04F2-4896-93A6-B3742D5052D6}</ProjectGuid>
+    <ProjectGuid>{529CD7AF-32B9-452C-AC86-05530B494B01}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_15___Methods</RootNamespace>
-    <AssemblyName>Chapter 15 - Methods</AssemblyName>
+    <RootNamespace>Chapter_18___Classes</RootNamespace>
+    <AssemblyName>Chapter 18 - Classes</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FibonacciSecuence.cs" />
-    <Compile Include="ReversingArray.cs" />
+    <Compile Include="Ball.cs" />
+    <Compile Include="Color.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

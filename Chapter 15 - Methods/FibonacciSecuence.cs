@@ -9,7 +9,6 @@ namespace Chapter_15___Methods
     class FibonacciSecuence
     {
         public static void Main(string[] args)
-
         {
             Console.WriteLine("What number (between 1 and 10) in the Fibonacci Sequence would you like to find?");
             String numbEntered = Console.ReadLine();
@@ -25,7 +24,6 @@ namespace Chapter_15___Methods
             if (number < 3)
                 return 1;
             return Testing(number - 1) + Testing(number - 2);
-
         }
     }
 }

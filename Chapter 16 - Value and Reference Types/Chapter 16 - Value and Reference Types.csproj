@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2390833B-04F2-4896-93A6-B3742D5052D6}</ProjectGuid>
+    <ProjectGuid>{B4F47EE5-DF90-46FC-9846-E9B35C7DDD09}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Chapter_15___Methods</RootNamespace>
-    <AssemblyName>Chapter 15 - Methods</AssemblyName>
+    <RootNamespace>Chapter_16___Value_and_Reference_Types</RootNamespace>
+    <AssemblyName>Chapter 16 - Value and Reference Types</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FibonacciSecuence.cs" />
-    <Compile Include="ReversingArray.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

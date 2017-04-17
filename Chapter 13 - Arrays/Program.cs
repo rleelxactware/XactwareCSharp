@@ -10,6 +10,10 @@ namespace Chapter_13___Arrays
     {
         static void Main(string[] args)
         {
+
+
+
+
             //CREATING TWO ARRAYS, FILLING ONE ARRAY THEN COPYING IT TO SECOND ARRAY
             //--------------------------------------------------------------------------
             /*
@@ -32,6 +36,11 @@ namespace Chapter_13___Arrays
             Console.ReadKey();
             */
 
+
+
+
+
+
             //Examples out of the book
             //----------------------------------------------
             /*
@@ -50,6 +59,12 @@ namespace Chapter_13___Arrays
             Console.ReadKey();
             */
 
+
+
+
+
+
+
             //More examples out of the book
             //------------------------------------------
             /*
@@ -65,6 +80,13 @@ namespace Chapter_13___Arrays
             Console.ReadKey();
             */
 
+
+
+
+
+            // This program will initialize an array and then find the minimun value in the array as well as give the average value of the array
+
+            //Setting the currentMinimum to highest possible value.
             double currentMinimum = double.MaxValue;
 
             int[] array = new int[] { 5, 10, 15, -20, 25, -30, 35, 40, 45, -50 };
